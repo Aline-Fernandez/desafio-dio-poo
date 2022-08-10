@@ -40,8 +40,8 @@ public class Main {
       devAline.progredir();
       devAline.progredir();
       System.out.println("-");
-      System.out.println("Conteudos Conteudos concluidos Aline: " + devAline.getConteudosInscritos());
-      System.out.println("Conteudos Conteudos concluidos Aline: " + devAline.getConteudosConcluidos());
+      System.out.println("Conteudos concluidos Aline: " + devAline.getConteudosInscritos());
+      System.out.println("Conteudos concluidos Aline: " + devAline.getConteudosConcluidos());
       System.out.println("XP:" + devAline.calcularTotalxp());
 
       System.out.println("---------");
@@ -50,7 +50,7 @@ public class Main {
       devWilson.setNome("Wilson");
       devWilson.inscrerBootcamp(bootcamp);
       System.out.println("Conteudos Incritos Wilson: " + devWilson.getConteudosInscritos());
-      devWilson.progredir();
+      
       devWilson.progredir();
       devWilson.progredir();
 
